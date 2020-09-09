@@ -47,6 +47,17 @@ body {
     padding: 20px;
     transition: all .3s ease;
 }
+.bottom {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 20px;
+    transition: all .3s ease;
+}
 
 .card:hover {
     cursor: pointer;
@@ -54,6 +65,11 @@ body {
     transform: scale(1.22);
 }
 
+.bottom:hover {
+    cursor: pointer;
+    box-shadow: rgba(0,0,0,0.1);
+    transform: scale(1.22);
+}
 .card:nth-child(1) {
     background-image: linear-gradient(
         to bottom,
@@ -66,29 +82,65 @@ body {
         to bottom,
         rgba(10,10,10,0) 0%,
         rgba(10,10,10,0) 55%,
-        rgba(10,10,10,0.7) 100%), url("imgs/edouard-bosse-GGVOZSetFwU-unsplash.jpg");
+        rgba(10,10,10,0.7) 100%), url("imgs/IMG_2840.png");
 }
 .card:nth-child(3) {
     background-image: linear-gradient(
         to bottom,
         rgba(10,10,10,0) 0%,
         rgba(10,10,10,0) 55%,
-        rgba(10,10,10,0.7) 100%), url("imgs/gigi-F5KCP7qZL50-unsplash.jpg");
+        rgba(10,10,10,0.7) 100%), url("imgs/Rytme.jpg");
 }
 .card:nth-child(4) {
     background-image: linear-gradient(
         to bottom,
         rgba(10,10,10,0) 0%,
         rgba(10,10,10,0) 55%,
-        rgba(10,10,10,0.7) 100%), url("imgs/jordan-m-lomibao-FRl1MLBkA-g-unsplash.jpg");
+        rgba(10,10,10,0.7) 100%), url("imgs/innramming1.jpg");
 }
 .card:nth-child(5) {
     background-image: linear-gradient(
         to bottom,
         rgba(10,10,10,0) 0%,
         rgba(10,10,10,0) 55%,
-        rgba(10,10,10,0.7) 100%), url("imgs/stephen-leonardi-JE80wEMaNZM-unsplash.jpg");
+        rgba(10,10,10,0.7) 100%), url("imgs/eliminert2.jpg");
 }
+.bottom:nth-child(13) {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(10,10,10,0) 0%,
+        rgba(10,10,10,0) 55%,
+        rgba(10,10,10,0.7) 100%), url("imgs/Fugl.jpg");
+}
+.bottom:nth-child(14) {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(10,10,10,0) 0%,
+        rgba(10,10,10,0) 55%,
+        rgba(10,10,10,0.7) 100%), url("imgs/over.jpg");
+}
+.bottom:nth-child(15) {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(10,10,10,0) 0%,
+        rgba(10,10,10,0) 55%,
+        rgba(10,10,10,0.7) 100%), url("imgs/normal.jpg");
+}
+.bottom:nth-child(16) {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(10,10,10,0) 0%,
+        rgba(10,10,10,0) 55%,
+        rgba(10,10,10,0.7) 100%), url("imgs/under.jpg");
+}
+.bottom:nth-child(17) {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(10,10,10,0) 0%,
+        rgba(10,10,10,0) 55%,
+        rgba(10,10,10,0.7) 100%), url("imgs/frosk.jpg");
+}
+
 .mid-text {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: #ECF0F1;
