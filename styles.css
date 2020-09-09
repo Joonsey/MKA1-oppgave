@@ -13,7 +13,7 @@ body {
 .feed {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: 1fr 1fr 175px;
+    grid-template-rows: repeat(3, 1fr);
     grid-gap: 22px;
     margin: 40px 0 40px 0;
 }
